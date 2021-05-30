@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Морской бой</title>
+  </head>
+  <body>
+    <div class="wrap">
+	  <div class="battlefield">
+		    <div id="text_top" class="flex text-top"><h1>Морской бой</h1></div>
+		    <div class="flex outer">
+			       <div class="field field-human">
+				           <div id="field_human" class="ships"></div>
+			       </div>
+
+			       <div class="field field-computer" hidden>
+				           <div id="field_computer" class="ships"></div>
+			       </div>
+
+             <div id="instruction" class="instruction">
+        				<div id="type_placement" class="type-placement-box">
+					            <span class="link" data-target="random">Начало</span>
+				        </div>
+             </div>
+
+        </div>
+
+        <div class="service-row">
+			     <div id="service_text" class="service-text"></div>
+			     <button id="play" type="button" class="btn-play" hidden>Играть</button>
+           <button id="newgame" type="button" class="btn-play btn-newgame" hidden>Заново</button>
+		    </div>
+     </div>
+     </div>
+    <script src="function.js"></script>
+  </body>
+</html>
